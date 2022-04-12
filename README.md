@@ -12,7 +12,7 @@ $ . "仮想環境名"/bin/activate　　
 
 [3] 各パッケージのインストール　　
 
-https://github.com/noanoachan/AutoOperat_Mercari/requirements.txt　　
+https://github.com/noanoachan/AutoOperat_Mercari/venv_AutoOperat_Mercari/requirements.txt　　
 
 ```
 $ pip install -r requirements.txt
