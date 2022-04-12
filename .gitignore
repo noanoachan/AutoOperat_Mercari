@@ -134,4 +134,6 @@ venv_AutoOperat_Mercari/bin
 venv_AutoOperat_Mercari/include
 venv_AutoOperat_Mercari/lib
 venv_AutoOperat_Mercari/pyvenv.cfg
+venv_AutoOperat_Mercari/.vscode
+venv_AutoOperat_Mercari/venv_AutoOperat_Mercari.code-workspace
 venv_AutoOperat_Mercari/src/__pycache__
