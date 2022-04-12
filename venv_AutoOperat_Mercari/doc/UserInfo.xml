@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Mercari>
+    <UserInfo>
+        <Email>Example@sample.com</Email>
+        <Pass>Password</Pass>
+    </UserInfo>
+</Mercari>
