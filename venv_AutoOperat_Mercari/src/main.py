@@ -159,11 +159,10 @@ def main(valOperat):
                 
             else:
                 options.add_argument(f'--user-data-dir={strLoginChace_dir}')
+                # ログインキャッシュの有無を「有」へ変更
+                objUserInfo.setExistCache(True)
                 logging.info('ログインキャッシュが確認できました')
                 
-            
-            # ログインキャッシュの有無を「有」へ変更
-            objUserInfo.setExistCache(True)
             
             # 環境に応じた webdriverを自動インストール
             global DRIVER

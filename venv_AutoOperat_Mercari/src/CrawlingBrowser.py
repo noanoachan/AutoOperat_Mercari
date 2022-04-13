@@ -61,6 +61,10 @@ class CrawlingBrowser():
             
             # ログインキャッシュの有無
             if not objUserInfo.getExistCache():
+                
+                # ログインキャッシュの有無を「有」へ変更
+                objUserInfo.setExistCache(True)
+                
                 # ログイン
                 wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, objCssSelectorConst.BTN_LOGIN)))
                 driver.find_element_by_css_selector(objCssSelectorConst.BTN_LOGIN).click()
